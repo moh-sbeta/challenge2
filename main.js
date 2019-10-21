@@ -39,20 +39,50 @@ function map(array, func) {
 Depending on data modeling concept that you have learned:
 
 Create a factory function called makeComputer that represents computers, 
-What different attributes computers may have? 
+What different attributes computers may have?
+-----> screen size , Ram, hard drive capacety, weight
 Create two computers object from your factory function and save them in one array called computers!
 
 Note: please write one or two lines here describing your solution.
 */
 
-function makeComputer(type, color, weight) {
-  // TODO: Your code here
+function makeComputer(pro1, pro2, ram1, ram2, siz1, siz2 ) {
+  var comp1 = [];
+  var comp2 = [],
+return comp1.push (pro1, ram1, size1) + 
 }
 
 // Write a function displayComputer that can be used to display one computer.
 
+// let us imagin that this factori produce two types of laptops
+var comp1 = { // the high end product
+    drive: "1 Tb SSD",
+    family: "Star 1",
+    processeur: "Intel i7",
+    ram: "32 Gb",
+    size: "15 in"
+}
+
+var comp2 = {  // the affordable product
+    drive: "0.5 Tb SSD",
+    family: "Star 1",
+    processeur: "Intel i5",
+    ram: "16 Gb",
+    size: "13 in"
+}
+
+
+// in order to see the spacification of any product we zill need too inter the name of the product inside the follwing function
 function displayComputer(computer) {
-  // TODO: Your code here
+    var comp = {}; // empty object
+  return comp = {   // returning the domputer spacifecation inside new object
+    processeur: pro,
+    ram: ram,
+    drive: HD,
+    size: size,
+    family: series
+  }
+}
 }
 
 //=============================================================================
